@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.mobile.spanduk">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SPANDUK"
+        tools:ignore="AllowBackup">
+        <activity android:name=".ui.home.mail.outgoing.DetailOutgoingMailActivity" />
+        <activity android:name=".ui.home.mail.outgoing.AddOutgoingMailActivity" />
+        <activity android:name=".ui.home.mail.incoming.AddIncomingMailActivity" />
+        <activity android:name=".ui.home.report.AddReportActivity" />
+        <activity android:name=".ui.home.list.AddWargaActivity" />
+        <activity android:name=".ui.home.user.edit.EditUserRTActivity" />
+        <activity android:name=".ui.home.mail.incoming.DetailIncomingMailActivity" />
+        <activity android:name=".ui.home.report.DetailReportActivity" />
+        <activity android:name=".ui.home.user.DetailUserActivity" />
+        <activity android:name=".ui.sign.UpdatePasswordActivity" />
+        <activity android:name=".ui.sign.VerifyOTPActivity" />
+        <activity android:name=".ui.sign.ForgotPasswordActivity" />
+        <activity android:name=".ui.home.list.DetailWargaActivity" />
+        <activity android:name=".ui.home.profile.ProfileActivity" />
+        <activity android:name=".ui.home.user.add.SignUpActivity" />
+        <activity android:name=".ui.home.mail.outgoing.OutgoingMailActivity" />
+        <activity android:name=".ui.home.mail.incoming.IncomingMailActivity" />
+        <activity android:name=".ui.home.report.self.LaporDiriActivity" />
+        <activity android:name=".ui.home.report.warga.ReportActivity" />
+        <activity android:name=".ui.home.report.guest.LaporTamuActivity" />
+        <activity android:name=".ui.home.list.DaftarWargaActivity" />
+        <activity android:name=".ui.home.mail.MailActivity" />
+        <activity android:name=".ui.home.user.UserActivity" />
+        <activity android:name=".ui.home.info.InformasiActivity" />
+        <activity android:name=".ui.home.schedule.JadwalActivity" />
+        <activity android:name=".ui.home.setting.SettingActivity" />
+        <activity android:name=".ui.home.HomeActivity" />
+        <activity android:name=".ui.sign.SignInActivity" />
+        <activity
+            android:name=".ui.SplashScreenActivity"
+            android:theme="@style/Theme.SPANDUK.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

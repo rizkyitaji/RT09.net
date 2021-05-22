@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#000</color>
+    <color name="white">#FFF</color>
+    <color name="blue">#004B82</color>
+    <color name="cyan">#03A9F4</color>
+    <color name="grey">#E4E4E4</color>
+    <color name="snow">#EAF4FA</color>
+    <color name="green">#56DC39</color>
+    <color name="red">#FF0000</color>
+    <color name="light_cyan">#46BDF3</color>
+    <color name="dark_cyan">#ff0099cc</color>
+    <color name="ucrop_color_statusbar">#000</color>
+</resources>

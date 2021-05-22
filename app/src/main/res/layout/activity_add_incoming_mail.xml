@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".ui.home.mail.incoming.AddIncomingMailActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/snow">
+
+        <ImageView
+            android:layout_width="195dp"
+            android:layout_height="145dp"
+            android:src="@drawable/ic_background_right"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ContentDescription" />
+
+        <RelativeLayout
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                style="@style/TextBold.Blue22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/surat_masuk"
+                android:textAllCaps="true" />
+
+            <ImageView
+                android:id="@+id/btn_back"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_keyboard_arrow_left_blue"
+                tools:ignore="ContentDescription" />
+        </RelativeLayout>
+
+        <TextView
+            style="@style/TextNormal.Blue14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:text="@string/no_surat"
+            android:textAllCaps="true"
+            app:layout_constraintBottom_toBottomOf="@id/mailNum"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/mailNum" />
+
+        <TextView
+            android:id="@+id/colon"
+            style="@style/TextNormal.Blue14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:text="@string/colon"
+            app:layout_constraintBottom_toBottomOf="@id/mailNum"
+            app:layout_constraintStart_toEndOf="@id/two"
+            app:layout_constraintTop_toTopOf="@id/mailNum" />
+
+        <EditText
+            android:id="@+id/mailNum"
+            style="@style/EditText.White"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="24dp"
+            android:inputType="text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/colon"
+            app:layout_constraintTop_toBottomOf="@id/toolbar"
+            tools:ignore="Autofill,LabelFor" />
+
+        <TextView
+            android:id="@+id/two"
+            style="@style/TextNormal.Blue14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:text="@string/tanggal_diterima"
+            android:textAllCaps="true"
+            app:layout_constraintBottom_toBottomOf="@id/dateReceived"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/dateReceived" />
+
+        <TextView
+            style="@style/TextNormal.Blue14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:text="@string/colon"
+            app:layout_constraintBottom_toBottomOf="@id/dateReceived"
+            app:layout_constraintStart_toEndOf="@id/two"
+            app:layout_constraintTop_toTopOf="@id/dateReceived" />
+
+        <TextView
+            android:id="@+id/dateReceived"
+            style="@style/EditText.White"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="24dp"
+            android:text="@string/pilih_tanggal"
+            app:drawableEndCompat="@drawable/ic_event_note"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/colon"
+            app:layout_constraintTop_toBottomOf="@id/mailNum" />
+
+        <TextView
+            style="@style/TextNormal.Blue14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:text="@string/tanggal_surat"
+            android:textAllCaps="true"
+            app:layout_constraintBottom_toBottomOf="@id/mailingDate"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/mailingDate" />
+
+        <TextView
+            style="@style/TextNormal.Blue14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:text="@string/colon"
+            app:layout_constraintBottom_toBottomOf="@id/mailingDate"
+            app:layout_constraintStart_toEndOf="@id/two"
+            app:layout_constraintTop_toTopOf="@id/mailingDate" />
+
+        <TextView
+            android:id="@+id/mailingDate"
+            style="@style/EditText.White"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="24dp"
+            android:text="@string/pilih_tanggal"
+            app:drawableEndCompat="@drawable/ic_event_note"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/colon"
+            app:layout_constraintTop_toBottomOf="@id/dateReceived" />
+
+        <TextView
+            style="@style/TextNormal.Blue14"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="12dp"
+            android:text="Diterima dari"
+            android:textAllCaps="true"
+            app:layout_constraintBottom_toBottomOf="@id/from"
+            app:layout_constraintEnd_toStartOf="@id/colon"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/from" />
+
+        <TextView
+            style="@style/TextNormal.Blue14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:text="@string/colon"
+            app:layout_constraintBottom_toBottomOf="@id/from"
+            app:layout_constraintStart_toEndOf="@id/two"
+            app:layout_constraintTop_toTopOf="@id/from" />
+
+        <EditText
+            android:id="@+id/from"
+            style="@style/EditText.White"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="24dp"
+            android:inputType="textCapWords"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/colon"
+            app:layout_constraintTop_toBottomOf="@id/mailingDate"
+            tools:ignore="Autofill,LabelFor" />
+
+        <TextView
+            style="@style/TextNormal.Blue14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:paddingVertical="7dp"
+            android:text="@string/perihal"
+            android:textAllCaps="true"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/subject" />
+
+        <TextView
+            style="@style/TextNormal.Blue14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:paddingVertical="7dp"
+            android:text="@string/colon"
+            app:layout_constraintStart_toEndOf="@id/two"
+            app:layout_constraintTop_toTopOf="@id/subject" />
+
+        <EditText
+            android:id="@+id/subject"
+            style="@style/EditText.White"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="24dp"
+            android:gravity="top"
+            android:inputType="textMultiLine|textCapWords"
+            android:lines="3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/colon"
+            app:layout_constraintTop_toBottomOf="@id/from"
+            tools:ignore="Autofill,LabelFor" />
+
+        <TextView
+            style="@style/TextNormal.Blue14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:text="@string/keterangan"
+            android:textAllCaps="true"
+            app:layout_constraintBottom_toBottomOf="@id/detail"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/detail" />
+
+        <TextView
+            style="@style/TextNormal.Blue14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:text="@string/colon"
+            app:layout_constraintBottom_toBottomOf="@id/detail"
+            app:layout_constraintStart_toEndOf="@id/two"
+            app:layout_constraintTop_toTopOf="@id/detail" />
+
+        <EditText
+            android:id="@+id/detail"
+            style="@style/EditText.White"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="24dp"
+            android:inputType="textCapWords"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/colon"
+            app:layout_constraintTop_toBottomOf="@id/subject"
+            tools:ignore="Autofill,LabelFor" />
+
+        <TextView
+            style="@style/TextNormal.Blue14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:text="@string/lain_lain"
+            android:textAllCaps="true"
+            app:layout_constraintBottom_toBottomOf="@id/etc"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/etc" />
+
+        <TextView
+            style="@style/TextNormal.Blue14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:text="@string/colon"
+            app:layout_constraintBottom_toBottomOf="@id/etc"
+            app:layout_constraintStart_toEndOf="@id/two"
+            app:layout_constraintTop_toTopOf="@id/etc" />
+
+        <EditText
+            android:id="@+id/etc"
+            style="@style/EditText.White"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="24dp"
+            android:inputType="textCapSentences"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/colon"
+            app:layout_constraintTop_toBottomOf="@id/detail"
+            tools:ignore="Autofill,LabelFor" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="32dp"
+            app:layout_constraintBottom_toTopOf="@id/btn_submit"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/etc" />
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="24dp"
+            android:layout_marginBottom="32dp"
+            android:text="@string/submit"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

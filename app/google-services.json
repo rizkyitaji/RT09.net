@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1066159292408",
+    "firebase_url": "https://rt09net.firebaseio.com",
+    "project_id": "rt09net",
+    "storage_bucket": "rt09net.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1066159292408:android:8f28499dcb68c1bc3b600d",
+        "android_client_info": {
+          "package_name": "com.mobile.spanduk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1066159292408-h3inqca0rql42obf98ejg4dfpaqt8q4r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mobile.spanduk",
+            "certificate_hash": "d361ab74e9ab143d1db546104c8449be1a55996e"
+          }
+        },
+        {
+          "client_id": "1066159292408-m7k1pr9gfpbjehai0opom3q8j56jqni4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAH9WXI7BIXi8ilR4YZsTmcKCWyJrWH1oc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1066159292408-m7k1pr9gfpbjehai0opom3q8j56jqni4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

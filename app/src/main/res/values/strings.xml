@@ -1,0 +1,127 @@
+<resources>
+    <string name="app_name">RT09.net</string>
+    <string name="select_user">SELECT USER</string>
+    <string name="login">LOGIN</string>
+    <string name="sign_up">Jika tidak memiliki akun, silakan hubungi Ketua RT!</string>
+    <string name="koneksi_internet_anda_telah_terputus">Koneksi internet Anda telah terputus!</string>
+    <string name="warga">Warga</string>
+    <string name="ketua_rt">Ketua RT</string>
+    <string name="admin">Admin</string>
+    <string name="nama_lengkap">Nama Lengkap</string>
+    <string name="status">Status</string>
+    <string name="jadwal_kegiatan">JADWAL KEGIATAN</string>
+    <string name="informasi">INFORMASI</string>
+    <string name="lapor_diri">LAPOR DIRI</string>
+    <string name="lapor_tamu">LAPOR TAMU</string>
+    <string name="daftar_warga">DAFTAR WARGA</string>
+    <string name="daftar_user">DAFTAR USER</string>
+    <string name="pengajuan_surat">PENGAJUAN SURAT</string>
+    <string name="aduan_warga">ADUAN WARGA</string>
+    <string name="surat_masuk">SURAT MASUK</string>
+    <string name="surat_keluar">SURAT KELUAR</string>
+    <string name="ganti_ketua_rt">Ganti Ketua RT</string>
+    <string name="colon">:</string>
+    <string name="alamat">Alamat</string>
+    <string name="nama">Nama</string>
+    <string name="phone">No. Telepon</string>
+    <string name="nama_pelapor">Nama Pelapor</string>
+    <string name="keterangan">Keterangan</string>
+    <string name="terima">Terima</string>
+    <string name="tolak">Tolak</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+        esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+        qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+        do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+        ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+        esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+        deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+        esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+        qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+        do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+        ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+        esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+        deserunt mollit anim id est laborum.</string>
+    <string name="tanggal">Tanggal</string>
+    <string name="submit">Submit</string>
+    <string name="keperluan">Keperluan</string>
+    <string name="strip">-</string>
+    <string name="waktu">Waktu</string>
+    <string name="tempat">Tempat</string>
+    <string name="judul">Judul</string>
+    <string name="nama_kegiatan">Nama Kegiatan</string>
+    <string name="ok">OK</string>
+    <string name="selamat_datang">Selamat Datang</string>
+    <string name="logout">LOGOUT</string>
+    <string name="profil">Profil</string>
+    <string name="kartu_keluarga">Kartu Keluarga</string>
+    <string name="upload">Upload</string>
+    <string name="tidak_ada_gambar">Tidak ada gambar</string>
+    <string name="pengaturan">Pengaturan</string>
+    <string name="whatsapp">Whatsapp</string>
+    <string name="profil_saya">Profil Saya</string>
+    <string name="password">Password</string>
+    <string name="lihat_profil">Lihat Profil</string>
+    <string name="pilih">Pilih</string>
+    <string name="hapus_foto">Hapus Foto</string>
+    <string name="edit_data">Edit Data</string>
+    <string name="hapus">Hapus</string>
+    <string name="lihat_detail">Lihat Detail</string>
+    <string name="pilih_tanggal">Pilih Tanggal</string>
+    <string name="pilih_waktu">Pilih Waktu</string>
+    <string name="hubungi_ketua_rt">Hubungi Ketua RT</string>
+    <string name="telepon">Telepon</string>
+    <string name="no_whatsapp">No. Whatsapp</string>
+    <string name="save">Save</string>
+    <string name="edit_password">EDIT PASSWORD</string>
+    <string name="edit_no_telepon">EDIT NO. TELEPON</string>
+    <string name="edit_no_whatsapp">EDIT NO. WHATSAPP</string>
+    <string name="password_saat_ini">Password saat ini</string>
+    <string name="no_telepon_saat_ini">No. Telepon saat ini</string>
+    <string name="no_whatsapp_saat_ini">No. Whatsapp saat ini</string>
+    <string name="password_baru">Password baru</string>
+    <string name="no_telepon_baru">No. Telepon baru</string>
+    <string name="no_whatsapp_baru">No. Whatsapp baru</string>
+    <string name="phone_not_set">No. Telepon Anda belum diatur</string>
+    <string name="whatsapp_not_set">No. Whatsapp Anda belum diatur</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="selesai">Selesai</string>
+    <string name="username">Username</string>
+    <string name="lainnya">Lainnya</string>
+    <string name="user">USER</string>
+    <string name="jenis_kelamin">Jenis Kelamin</string>
+    <string name="nik">NIK</string>
+    <string name="no_kk">No. KK</string>
+    <string name="agama">Agama</string>
+    <string name="pendidikan">Pendidikan</string>
+    <string name="pekerjaan">Pekerjaan</string>
+    <string name="next">Continue</string>
+    <string name="home">Home</string>
+    <string name="text_forgot_pass">Masukkan nomor telepon yang terhubung\ndengan akun Anda!</string>
+    <string name="verify">Verify</string>
+    <string name="text_verify_code">Masukkan kode verifikasi yang Anda terima!</string>
+    <string name="update">Update</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="text_update_pass">Silakan masukkan password baru Anda!</string>
+    <string name="lampiran_foto">Lampiran Foto</string>
+    <string name="perempuan">Perempuan</string>
+    <string name="laki_laki">Laki-Laki</string>
+    <string name="hindu">HINDU</string>
+    <string name="buddha">BUDDHA</string>
+    <string name="islam">ISLAM</string>
+    <string name="protestan">PROTESTAN</string>
+    <string name="katolik">KATOLIK</string>
+    <string name="khonghucu">KHONGHUCU</string>
+    <string name="perihal">Perihal</string>
+    <string name="no_surat">No. Surat</string>
+    <string name="surat">Surat</string>
+    <string name="tanggal_perlu">Tanggal Perlu</string>
+    <string name="tanggal_diterima">Tanggal Diterima</string>
+    <string name="tanggal_surat">Tanggal Surat</string>
+    <string name="lain_lain">Lain-Lain</string>
+    <string name="resend_code">Resend Code</string>
+</resources>
