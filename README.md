@@ -1,4 +1,4 @@
-# Project Name
+# RT09.net
 > Android based community service application.
 
 ## Table of Contents
@@ -10,8 +10,8 @@
 <!-- * [Contact](#contact) -->
 
 ## General Information
-- Application to view or manage activities in the community.
-- View citizen reports or complaints.
+- Application to view or manage activities in the community
+- View citizen reports or complaints
 
 ## Technologies Used
 - Kotlin Programming Language
