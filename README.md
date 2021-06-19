@@ -6,6 +6,7 @@
 * [Technologies Used](#technologies-used)
 * [Features](#features)
 * [Screenshots](#screenshots)
+* [Usage](#usage)
 * [Project Status](#project-status)
 <!-- * [Contact](#contact) -->
 
@@ -17,7 +18,7 @@
 - Kotlin Programming Language
 - Firebase Realtime Database
 - Firebase Storage
-- Firebase Auth
+- Firebase Authentication
 
 ## Features
 - CRUD with Firebase Realtime Database
@@ -32,8 +33,15 @@
   <img width="200" src="https://user-images.githubusercontent.com/83572055/119615452-9d7bb980-be29-11eb-8e13-f02097756997.jpg">
 </p>
 
+## Usage
+`Android`
+  - Create firebase project
+  - Connect firebase to android app
+  - Download google-service.json
+  - Place it at project_name/android/app/ directory
+
 ## Project Status
-Project is : _complete_.
+Project is : _Complete_.
 
 <!-- ## Contact
 Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me! -->
